@@ -4,7 +4,7 @@
 #
 Name     : rubygem-heredoc_unindent
 Version  : 1.2.0
-Release  : 1
+Release  : 2
 URL      : https://rubygems.org/downloads/heredoc_unindent-1.2.0.gem
 Source0  : https://rubygems.org/downloads/heredoc_unindent-1.2.0.gem
 Summary  : No detailed summary available
