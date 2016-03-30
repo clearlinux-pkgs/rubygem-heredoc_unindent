@@ -4,7 +4,7 @@
 #
 Name     : rubygem-heredoc_unindent
 Version  : 1.2.0
-Release  : 2
+Release  : 3
 URL      : https://rubygems.org/downloads/heredoc_unindent-1.2.0.gem
 Source0  : https://rubygems.org/downloads/heredoc_unindent-1.2.0.gem
 Summary  : No detailed summary available
@@ -52,32 +52,18 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
 pushd %{buildroot}%{gem_dir}/gems/heredoc_unindent-1.2.0
-ruby -v -I.:lib test*/test_*.rb
+ruby -v -I.:lib:test test*/test_*.rb
 popd
 
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/heredoc_unindent-1.2.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/cdesc-HeredocUnindent.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/heredoc_unindent%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/heredoc_unindent-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/unindent%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/unindent-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/unindent_base-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/unindent_base_new-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/HeredocUnindent/unindent_base_old-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/String/cdesc-String.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/CoreExt/cdesc-CoreExt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/page-History_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/page-Manifest_txt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/heredoc_unindent-1.2.0/ri/page-README_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/gems/heredoc_unindent-1.2.0/.gemtest
-/usr/lib64/ruby/gems/2.2.0/gems/heredoc_unindent-1.2.0/History.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/heredoc_unindent-1.2.0/Manifest.txt
-/usr/lib64/ruby/gems/2.2.0/gems/heredoc_unindent-1.2.0/README.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/heredoc_unindent-1.2.0/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/heredoc_unindent-1.2.0/lib/heredoc_unindent.rb
-/usr/lib64/ruby/gems/2.2.0/gems/heredoc_unindent-1.2.0/test/test_heredoc_unindent.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/heredoc_unindent-1.2.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/heredoc_unindent-1.2.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/heredoc_unindent-1.2.0/.gemtest
+/usr/lib64/ruby/gems/2.3.0/gems/heredoc_unindent-1.2.0/History.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/heredoc_unindent-1.2.0/Manifest.txt
+/usr/lib64/ruby/gems/2.3.0/gems/heredoc_unindent-1.2.0/README.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/heredoc_unindent-1.2.0/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/heredoc_unindent-1.2.0/lib/heredoc_unindent.rb
+/usr/lib64/ruby/gems/2.3.0/gems/heredoc_unindent-1.2.0/test/test_heredoc_unindent.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/heredoc_unindent-1.2.0.gemspec
